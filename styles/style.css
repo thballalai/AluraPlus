@@ -1,0 +1,221 @@
+:root{
+    --fonte-cor-primaria: #ffffff;
+    --fonte-cor-secundaria: #C0C0C0;
+    --fonte-cor-terciaria: #f9f9f9;
+    --botao-cor-primaria: #167BF7;
+    --fundo-cor-primaria: #00030C;
+
+    --fonte-primaria: "Inter";
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--fundo-cor-primaria);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+
+.primeira__secao {
+    background-image: url(../assets/img/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.primeira__secao__content {
+    margin: 15% 15% 0 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.375em;
+    align-items: center;
+}
+
+.primeira__secao__titulo{
+    color: var(--fonte-cor-primaria);
+    font-family: var(--fonte-primaria);
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.primeira__secao__img {
+    width: 70%;
+}
+
+.botao__box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    width: 90%;
+}
+
+.container__botao {
+    color: var(--fonte-cor-primaria);
+    font-family: var(--fonte-primaria);
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 1.5rem;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+#assinar__combo {
+    background-color: var(--botao-cor-primaria);
+    margin-top: 22px;
+}
+
+#assinar__alura {
+    background: transparent;
+    border: solid 1px #ffffff;
+}
+
+#primeira__secao__informativo {
+    color: var(--fonte-cor-secundaria);
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.secao__tipo {
+    align-items: center;
+}
+
+.secao__tipo__img {
+    width: 60%;
+    padding: 0 10% 0 30%;
+}
+
+.secao__tipo__texto {
+    color: var(--fonte-cor-primaria);
+    font-family: var(--fonte-primaria);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 0 20% 0 5%;
+}
+
+.secao__tipo__texto__titulo {
+    font-family: var(--fonte-primaria);
+    color: var(--fonte-cor-primaria);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2rem;
+}
+
+.secao__tipo__texto__texto {
+    font-family: var(--fonte-primaria);
+    color: var(--fonte-cor-terciaria);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    opacity: 0.8;
+}
+
+.terceira__secao__img {
+    width: 60%;
+    padding: 0 30% 0 10%;
+}
+
+.terceira__secao__texto {
+    color: var(--fonte-cor-primaria);
+    font-family: var(--fonte-primaria);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 0 0 0 12%;
+}
+
+.terceira__secao__texto__texto {
+    font-family: var(--fonte-primaria);
+    color: var(--fonte-cor-terciaria);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    opacity: 0.8;
+}
+
+.terceira__secao__botao {
+    background-color: var(--botao-cor-primaria);
+    color: var(--fonte-cor-primaria);
+    font-family: var(--fonte-primaria);
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 1.5rem;
+    padding: 16px;
+    border-radius: 8px;
+    width: 8.4rem;
+}
+
+.secao__quarta {
+    height: 50vh;
+    margin: 15%;
+}
+
+.secao__quarta__titulo {
+    color: var(--fonte-cor-primaria);
+    font-family: var(--fonte-primaria);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2rem;
+    text-align: center;
+}
+
+.secao__quarta_container{
+    margin: 10% 0 0 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.secao__quarta__texto {
+    color: var(--fonte-cor-primaria);
+    font-family: var(--fonte-primaria);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2rem;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+    margin: 0 120px 99px 120px;
+    align-items: center;
+}
+
+.rodape__logo {
+    width: 104px;
+}
+
+.rodape__menu {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.rodape__menu__item {
+    color: var(--fonte-cor-primaria);
+    font-family: var(--fonte-primaria);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-decoration: none;
+}
+
+.rodape__texto {
+    color: var(--fonte-cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
